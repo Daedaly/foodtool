@@ -1,0 +1,345 @@
+@media (min-width: 401px)
+{
+body {
+	background-color: #6699FF ; 
+	border: black 5px;
+	width:1350px;
+	border-style: dotted solid;
+	padding-bottom: 40px;
+}
+
+h1 {
+	display: block;
+	font: Palatino;
+	color: #33CCFF ;
+	font-size: 60px;
+	font-family: Palatino;
+	margin-left: 550px;
+	margin-top:90px;
+	border-radius: 51px;
+	max-width: 40px;
+	padding-left: 10px; 
+}
+
+#plate{
+	display:block;
+	margin-bottom:-350px;
+	margin-left:380px;
+	margin-top:20px;
+}
+
+#intro {
+	display: block;
+	margin-left: 400px;
+	margin-top:200px;
+	font-family: monospace;
+	font-size: 20px;
+	color: #9be3d2;
+	background-color: #000066 ;
+	padding:20px;
+	max-width: 500px;
+}
+
+#inst {
+	display: block;
+	margin-left: 400px;
+	font-family: monospace;
+	font-size: 20px;
+	color: #9be3d2;
+	background-color:#000066 ;
+	padding:20px;
+	max-width: 500px;
+}
+
+#error {
+	background-color: #FFCC00;
+	color: #990000;
+	border: solid 1px;
+	width:200px;
+	display: block;
+	margin-top: 20px;
+	margin-left:800px;
+	font-size: 13px;
+	padding:3px;
+}
+input {
+	display: block;
+	margin-left: 500px;
+}
+
+#main {
+	display: block;
+	margin-left: 550px;
+	margin-top:-35px;
+	width:30px;
+	font-family: monospace;
+}
+
+#mainT {
+	display: block;
+	margin-left: 450px;
+	width: 150px;
+	font-family: monospace;	
+	font-weight: bold;
+	color: #000066;
+	font-size: 15px;
+	
+}
+ 
+#sides {
+	display: block;
+	margin-left: 800px;
+	margin-top: -35px;
+	width: 30px;
+	font-family: monospace;
+}
+
+#sidesT {
+	display: block;
+	margin-left: 700px;
+	margin-top: -20px;
+	width: 30px;
+	font-family: monospace;
+	font-weight: bold;
+	color: #000066;
+	font-size: 15px;
+
+}
+
+#drink {
+	display:block;
+	margin-left:550px;
+	margin-top: -30px;
+	width: 30px;
+	font-family: monospace;
+}
+
+#drinkT {
+	display:block;
+	margin-left:450px;
+	margin-top: 30px;
+	width: 30px;
+	font-family: monospace;
+	font-weight: bold;
+	color: #000066;
+	font-size: 15px;
+}
+
+#add {
+	display:block;
+	margin-left: 800px;
+	margin-top:-35px;
+	width: 30px;
+	font-family: monospace;
+}
+
+#addT {
+	display:block;
+	margin-left: 700px;
+	margin-top:-20px;
+	width: 30px;
+	font-family: monospace;
+	font-weight: bold;
+	color: #000066;
+	font-size: 15px;
+}
+
+#submit {
+	display: block;
+	margin-left: 750px;
+	margin-top: -20px;
+	font-family: monospace;
+	width:100px;
+}
+
+#new {
+	display:block;
+	margin-left: 626px;
+	margin-top: 20px;
+	font-family: monospace;
+	width:140px;
+}
+
+#full {
+	display:block;
+	margin-left:500px;
+	margin-top: 20px;
+	font-family: monospace;
+	width:140px;
+}
+
+#reset {
+	display: block;
+	margin-left: 750px;
+	margin-top: -20px;
+	width:140px;
+	font-family: monospace;
+}
+}
+
+@media (max-width: 400px) 
+{
+body {
+	border: black 4px;
+	width:400px;
+	border-style: dotted solid;
+	padding-bottom: 40px;
+	background-color: #9999FF;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+h1 {
+	display: block;
+	font: monospace;
+	color: #6600CC;
+	font-size: 30px;
+	border-radius: 51px;
+	max-width: 40px;
+	margin-left:110px;
+	margin-top:-130px;
+}
+
+#plate{
+	width:300px;
+	margin-left:30px;
+}
+
+#intro {
+	display: block;
+	margin-top:80px;
+	font-family: monospace;
+	font-size: 15px;
+	color: #6600CC;
+	background-color: #66FFFF;
+	padding:20px;
+	max-width: 500px;
+}
+
+#inst {
+	display: block;
+	font-family: monospace;
+	font-size: 15px;
+	color: #6600CC;
+	background-color: #66FFFF;
+	padding:20px;
+	max-width: 500px;
+	padding-left: 30px;
+}
+
+input {
+	display: block;
+	margin-left: 15px;
+}
+
+#main {
+	display: block;
+	margin-left: 95px;
+	margin-top:-35px;
+	width:30px;
+}
+#mainT {
+	display: block;
+	margin-left: 10px;
+	width: 150px;
+	font-family: monospace;	
+	font-size: 15px;
+	font-weight: bold;
+	color: #6600CC;
+}
+ 
+#sides {
+	display: block;
+	margin-left: 260px;
+	margin-top: -35px;
+	width: 30px;
+}
+
+#sidesT {
+	display: block;
+	margin-left: 200px;
+	margin-top: -20px;
+	width: 30px;
+	font-family: monospace;
+	font-size: 15px;
+	font-weight: bold;
+	color: #6600CC;
+}
+
+#drink {
+	display:block;
+	margin-left:95px;
+	margin-top: -35px;
+	width: 30px;
+}
+
+#drinkT {
+	display:block;
+	margin-left: 10px;
+	margin-top: 20px;
+	width: 30px;
+	font-family: monospace;
+	font-size: 15px;
+	font-weight: bold;
+	color: #6600CC;
+}
+
+#add {
+	display:block;
+	margin-left: 260px;
+	margin-top:-35px;
+	width: 30px;
+}
+
+#addT {
+	display:block;
+	margin-left: 200px;
+	margin-top:-20px;
+	width: 30px;
+	font-family: monospace;
+	font-size: 15px;
+	font-weight: bold;
+	color: #6600CC;
+}
+
+#submit {
+	display: block;
+	margin-left: 200px;
+	margin-top: -20px;
+	font-family: monospace;
+}
+
+#new {
+	display:block;
+	margin-left: 130px;
+	margin-top: 20px;
+	font-family: monospace;
+	width:150px;
+}
+
+#full {
+	display: block;
+	margin-left: 5px;
+	margin-top: 10px;
+	font-family: monospace;
+	width:150px;
+}
+
+#reset {
+	display: block;
+	margin-left:250px;
+	margin-top: -20px;
+	width: 100px;
+	font-family: monospace;
+	width:150px;
+}
+
+#error {
+	background-color:#FFCC00 ;
+	color:#990000;
+	border:solid 1px;
+}
+
+
+
+}

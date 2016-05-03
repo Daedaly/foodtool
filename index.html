@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Food</title>
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	      <script type="text/javascript">
+
+            function getConfirmation(){
+               var retVal = confirm("Are you sure you want to delete all data?");
+               if( retVal == true ){
+                  document.write ("Thank you. All data has been deleted. There are no recovery methods. Did you know, way back in time, with older computers, there were viruses with a smiley face? One was called Navidad.16896, and it was notorious for having a tiny smiley face while it deleted your data. <strong>;)</strong>");
+                  return true;
+                  
+               }
+            }
+         //-->
+      </script>
+</head>
+<body>
+<img id="plate" src="http://www.pd4pic.com/images/lumen-food-menu-plate-design-stu-cartoon.png"></img>
+<h1> Meal Tracker</h1>
+<p id="intro">Instructions: Hello! Welcome to the Food Tracker, this is an offical program designed for calculations! This program can determine how many items have been bought, at a simple click of a few buttons. Below, type the name of the school, and follow part 2 of the instructions below.</p>
+<input type="text" name="school"/>
+<button type="button" id="submit">Submit</button>
+
+<form id="lunch-form">
+<p id="inst"> Click on the right of the boxes next to each item below to add or subtract an item. Once ready, hit "Submit Order" and then go to "All Transactions" to see a more globalized view of all the transactions made. </p>
+<p id="mainT">Main Meal</p>
+<input id="main" type="number" min="0"></input>
+<p id="sidesT">Sides</p>
+<input id="sides" type="number" min="0"></input>
+<p id="drinkT">Drinks</p>
+<input id="drink" type="number" min="0"></input>
+<p id="addT">Other</p>
+<input id="add" type="number" min="0"></input>
+<form>
+<button id="new" onclick="myFunction()">Submit</button>
+</form>
+<button type="button" id="full">All Transactions</button>
+</form>
+<form>
+         <input type="button" value="Reset All!" onclick="getConfirmation();" id="reset" />
+      </form>
+<p id="error"><strong>WARNING:</strong> "Reset All" is a feature that is included that will clear all history of orders. However, once you clear the data, there will be no recovering it! <strong>;)</strong></p>
+
+
+<script>
+function myFunction() {
+    alert("Thank You! All data has been submited!");
+   }
+</script>
+
+	<script   src="https://code.jquery.com/jquery-1.12.2.min.js"   integrity="sha256-lZFHibXzMHo3GGeehn1hudTAP3Sc0uKXBXAzHX1sjtk="   crossorigin="anonymous"></script>
+	<script src="https://cdn.firebase.com/js/client/2.4.1/firebase.js"></script>
+	<script src="script.js"></script>
+
+
+</body>
+
+
+</html>
